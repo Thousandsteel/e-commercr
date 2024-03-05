@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+nav {
+  text-align: center;
+  background-color: red;
+  padding: 2%;
+  position: sticky;
+  top: 0;
+}
+a:hover {
+  color: blue;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-inline: 20px;
+}
+.icon {
+  color: red;
+}
+.background-img{
+    background-image: url("images/background.jpeg");
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.explore {
+    text-align: center;
+  margin-top: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.404) ;
+  height: 100px;
+  font-size: larger;
+  
+}
+.map{
+text-align: center;
+
+}
+.input{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.next-page {
+  text-align: center;
+  padding-top: 40px;
+}
+.next-page button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;}
+.sub {
+  padding-top: 30px;
+  text-align: center;
+}
+.sub button {
+  border-radius: 20px;
+
+
+}
+footer {
+  display: flex;
+  column-gap: 10%;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+footer ul {
+  padding-top: 20px;
+}
+footer li {
+  padding: 10px;
+  list-style: none;
+}
+

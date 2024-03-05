@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+nav {
+  text-align: center;
+  background-color: red;
+  padding: 2%;
+  position: sticky;
+  top: 0;
+}
+a:hover {
+  color: blue;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-inline: 20px;
+}
+.icon {
+  color: red;
+}
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: red;
+}
+.tags {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.tags ul {
+  list-style: none;
+  border-top: 1px solid red;
+}
+.by-price h3 {
+  color: red;
+  border-bottom: 1px solid red;
+}
+.by-price button {
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 5%;
+}
+.list1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.next-page {
+  text-align: center;
+  padding-top: 40px;
+}
+.next-page button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+footer {
+  display: flex;
+  column-gap: 10%;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+footer ul {
+  padding-top: 20px;
+}
+footer li {
+  padding: 10px;
+  list-style: none;
+}
+.wear {
+  background-color: rgba(128, 128, 128, 0.411);
+  text-align: center;
+  padding: 20px;
+  font-size: xx-large;
+}
+.wear-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2%;
+}
+.sub {
+  padding-top: 30px;
+}
+.sub button {
+  border-radius: 20px;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30%;
+  border-top: 1px solid black;
+  padding: 20px;
+}
+.btn {
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px 5px;
+}
+.btn button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.price-tag {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+}
+.select {
+  padding-top: 5%;
+}
+.cushion {
+  padding-top: 10%;
+}
+.contact {
+  display: flex;
+  column-gap: 20%;
+  padding-left: 20px;
+  font-size: larger;
+  border-top: 1px solid grey;
+}
+.pay {
+  display: flex;
+  column-gap: 33%;
+  margin-top: 10%;
+  padding: 20px;
+  font-size: larger;
+  border-top: 1px solid grey;
+}
+.ITEM-CHECK {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+.Novel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba(128, 128, 128, 0.603);
+  padding: 20px;
+}
+.Novel button {
+  padding: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+.final-checkout {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10%;
+  padding-top: 2%;
+  padding-left: 20px;
+}
+.final-checkout button{
+  margin-left: 10%;
+  padding: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
